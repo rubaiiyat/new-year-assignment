@@ -1,3 +1,208 @@
-h1 {
-  background-color: gray;
+.main-container {
+}
+.banner-section {
+  position: relative;
+}
+
+.banner-section img {
+  display: block;
+  margin: auto;
+  filter: brightness(40%);
+}
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+.banner-text p {
+  font-size: 32px;
+}
+.banner-text h1 {
+  font-size: 44px;
+}
+.all-category {
+  text-align: center;
+}
+.all-category img {
+  display: block;
+  margin: auto;
+}
+
+.all-category h1 {
+  font-size: 44px;
+  color: red;
+}
+.all-category p {
+  color: red;
+}
+.all-category h3 {
+  font-size: 30px;
+}
+
+.mid-night-party {
+  margin-top: 50px;
+  position: relative;
+}
+.mid-night-party img {
+  display: block;
+  margin: auto;
+  filter: brightness(40%);
+}
+
+.mid-night-party-text {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  text-align: left;
+}
+
+.mid-night-party h1 {
+  font-size: 44px;
+}
+.mid-night-party p {
+  font-size: 22px;
+}
+.mid-night-party button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.event-time {
+  background-color: #ffe7e7;
+  color: red;
+  text-align: center;
+  border: 2px solid rgb(243, 206, 206);
+  border-radius: 10px;
+  margin: 50px 130px;
+  padding: 20px;
+}
+.date-place {
+  color: black;
+}
+.event-time button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.best-offer-section {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 130px;
+}
+.ellipse-img {
+  border: 15px solid red;
+  border-radius: 50%;
+  padding: 20px;
+}
+.best-offer {
+  color: red;
+}
+
+.discount-section {
+  text-align: center;
+}
+.discount-section span {
+  color: red;
+}
+
+.discount-section h1 {
+  font-size: 44px;
+}
+.holiday-sell-img {
+  position: relative;
+  overflow: hidden;
+}
+.Rectangle1 {
+  float: right;
+  margin-top: 50px;
+  margin-bottom: -10px;
+  padding-right: 123px;
+}
+.holiday-box {
+  width: 700px;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+.portfolio-section {
+  margin: 50px 130px;
+}
+.portfolio-section h1 {
+  font-size: 44px;
+}
+
+.subscriber-section {
+  background-color: #ffe7e7;
+  text-align: center;
+  border: 2px solid rgb(243, 206, 206);
+  border-radius: 10px;
+  margin: 50px 130px;
+  padding: 20px;
+}
+
+.Subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 350px;
+  padding: 12px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: none;
+}
+.Subscribe button {
+  padding: 12px 20px;
+  background-color: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+footer {
+  background-color: #070211;
+  color: white;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.all-right-reserved {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+hr {
+  margin: 0 130px;
 }
